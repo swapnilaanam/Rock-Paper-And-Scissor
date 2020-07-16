@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <title>Rock, Paper And Scissor</title>
+        <script src="https://kit.fontawesome.com/4d319b78cc.js"
+                crossorigin="anonymous"></script>
+        <script type="text/javascript" src="game.js"></script>
+    </head>
+    <body>
+        <div class="container">
+            <h1>Rock Paper And Scissor</h1>
+            <div id="playing-interface">
+                <div id="interface-wrapper">
+                    <div id="all-player">
+                        <div class="player">
+                            <h2>Player</h2>
+                            <div class="player-move"></div>
+                        </div>
+                        <hr/>
+                        <div class="player">
+                            <h2>Computer</h2>
+                            <div class="player-move"></div>
+                        </div>
+                    </div>
+                    <hr/>
+                    <div id="result">
+                        <h3 class="result-move"></h3>
+                        <p class="result-reason"></p>
+                    </div>
+                </div>
+            </div>
+            <div id="player-input">
+                <div id="player-wrapper">
+                    <span>
+                        <i class="far fa-hand-rock"></i>
+                        <p>Rock</p>
+                    </span>
+                    <span>
+                        <i class="far fa-hand-paper"></i>
+                        <p>Paper</p>
+                    </span>
+                    <span>
+                        <i class="far fa-hand-scissors"></i>
+                        <p>Scissors</p>
+                    </span>
+                </div>
+            </div>
+            <div id="total-result">
+                <h2>Player <span class="ply">0</span>:</h2>
+                <h2>:<span class="com">0</span> Computer</h2>
+            </div>
+        </div>
+    </body>
+</html>
